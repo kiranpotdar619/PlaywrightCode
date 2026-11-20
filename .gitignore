@@ -1,0 +1,20 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+.env
+
+# Session/auth
+user-session.json
+
+# Generated reports/output
+allure-results/
+reports/
+output/
+tta-report/
+*.png
+*.webm".commandcode/" 

@@ -1,0 +1,1 @@
+- Values fast, direct answers; dislikes slow multi-step investigation before responding. Confidence: 0.6

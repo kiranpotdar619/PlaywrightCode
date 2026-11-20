@@ -1,0 +1,29 @@
+// {
+//   "compilerOptions": {
+//     "target": "ESNext",
+//     "module": "NodeNext",
+//     "moduleResolution": "NodeNext",
+//     "types": ["node"],
+//     "strict": true,
+//     "esModuleInterop": true,
+//     "skipLibCheck": true
+//   },
+//   "include": ["playwright.config.ts", "tests/**/*.ts", "tests/19_Data_Driven_Testing/58_ReadWrite_File.js"]
+// }
+
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "Node16",
+    "moduleResolution": "node16",
+    "ignoreDeprecations": "6.0",
+    "types": ["node"],
+    "esModuleInterop": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": false
+  },
+  "include": ["tests/**/*.ts","utils/**/*.ts", "playwright.config.ts",
+  "./tests/04_Session_Storage/13_Session_Storage.ts","tests/19_Data_Driven_Testing/58_ReadWrite_File.js"]
+}
